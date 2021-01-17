@@ -97,12 +97,11 @@
      - 총 189개의 변수 중 RFE(Recursive feature elimination)를 활용하여 50개의 변수 선택
      - test R^2값이 0.937정도로 준수
      - 그래프 상으로도 수요경향성을 충분히 설명하는 것을 볼 수 있음 
-
-     ![image-20210117211602789](../../AppData/Roaming/Typora/typora-user-images/image-20210117211602789.png)
+       ![image](https://user-images.githubusercontent.com/67999107/104842960-925cce00-590b-11eb-8367-a8d22dd36143.png)     
 
      - 수요 예측 결과 
 
-       ![image-20210117211927792](../../AppData/Roaming/Typora/typora-user-images/image-20210117211927792.png)
+       ![image](https://user-images.githubusercontent.com/67999107/104842982-ba4c3180-590b-11eb-9dac-5d057aa7e534.png)
 
      
 
@@ -112,11 +111,11 @@
 
      - 다만, 과적합 양상이 보이고, 단일 모델로 설명하기엔 충분하지 않음.
 
-       ![image-20210117212052268](../../AppData/Roaming/Typora/typora-user-images/image-20210117212052268.png)
+       ![image](https://user-images.githubusercontent.com/67999107/104843003-d7810000-590b-11eb-8642-bcb54d801f63.png)
 
      - 수요 예측 결과
 
-       ![image-20210117212133170](../../AppData/Roaming/Typora/typora-user-images/image-20210117212133170.png)
+       ![image](https://user-images.githubusercontent.com/67999107/104843033-f1224780-590b-11eb-83b0-be5964d808b8.png)
 
    - 자전거 스테이션 배치
 
@@ -137,14 +136,12 @@
         - 때문에 가중치를 두어 도로변에 근사하게 하고자 하였음. (0.75 : 0.25)
         - 그 결과, 대부분의 좌표들이 비교적 도로변에 위치하게 만들 수 있었음.
 
-        ![image-20210117212712541](../../AppData/Roaming/Typora/typora-user-images/image-20210117212712541.png)
 
    - 기존 스테이션과 비교
 
      - 고양시 전체로 보면 추천 스테이션들이 더 넓고 고르게 분포된 것을 확인할 수 있음.
-
      - 새로운 최적 스테이션 개수가 현행보다 102개소 더 많지만 각 지역에 고르게 분포되었다는 것은 주목할 만한 점.
-
-       ![image-20210117212933622](../../AppData/Roaming/Typora/typora-user-images/image-20210117212933622.png)
-
-   - 보다 자세한 분석결과는 결과 보고서를 참고
+     - 기존 스테이션 - 파란 마커 (164개), 추천 스테이션 - 빨간 마커 (266개)
+      ![image](https://user-images.githubusercontent.com/67999107/104843066-1f078c00-590c-11eb-9b00-ce969d8ad1be.png)
+  
+  - 보다 자세한 분석결과는 결과 보고서를 참고
